@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EDUMOON</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    background-color: black;
+    text-align: center;
+    overflow-x: hidden;
+    color: white;
+
+    }
+    h2 {
+       color: white; 
+    }
+    </style>
+<body>
+  <div class="container">
+        <hr style="margin-top: 50px;" color="white">
+    <h2>Trusted By</h2><br>
+     <section class="customer-logos slider">
+        <div class="slide">
+            <a href="https://www.andhrauniversity.edu.in/" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\au.jpg" title="Andhra University"height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://aicte-india.org/" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\aicte.jpg" title="All India Council for Technical Education" height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\ahub.jpg"title="Andhra University Hub" height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://www.startupindia.gov.in/" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\startup.jpg" title="Startup India"height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://msme.gov.in/" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\msme.jpeg" title="Ministry of Micro, Small & Medium Enterprises" height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://mic.gov.in/innovation-council/iic" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\iic.jpg"title="Institution Innovation Council" height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://mic.gov.in/" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\moe.jpg" title="MOE Innovation cell" height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="http://stpi.in/en/home" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\stpi.jpg"title="Software Technology Parks of India" alt height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://www.pontaq.vc" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\pontaq.jpeg"title="UK Headquarter for Innovation Fund" height="100" width="100"></a>
+        </div>
+        <div class="slide">
+            <a href="https://www.iso.org/home.html" target="_blank">
+          <img src="C:\Users\Vuppala keerthi\Desktop\our partners\images\iso.jpg"title="International Organization for Standardization" height="100" width="100"></a>
+        </div>
+     </section>
+     <hr style="margin-top: 100px;" color="white">
+  </div>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script>
+    $(document).ready(function () {
+  $(".customer-logos").slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3
+        }
+      }
+    ]
+  });
+});
+</script>
+</body>
+</html>

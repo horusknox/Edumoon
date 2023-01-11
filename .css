@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(0, 0, 0, 0.847);
+    text-align: center;
+    overflow-x: hidden;
+    color: white;
+}
+
+.trusted_by {
+    color: white;
+    font-family:sans-serif;
+	font-style: normal;
+    font-size:xx-large;
+}
+
+.photo_container {
+    position: absolute; 
+}
+  
+.photobanner {
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    white-space: nowrap;
+    animation: bannermove 30s linear infinite;
+}
+  
+.photobanner img {    
+    margin: 0 0.5em;
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    filter: brightness(120%);
+}
+
+.photobanner:hover {
+    animation-play-state: paused;
+}
+  
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
