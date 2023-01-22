@@ -1,0 +1,14 @@
+body{
+    background-image: url("edumoon background.jfif");
+    background-size: cover;
+} 
+img{
+    float:left;
+    margin-left:10px;
+    margin-top:0px;
+    margin-right:500px;
+    width:200px;
+    height:100px;
+
+}
+
