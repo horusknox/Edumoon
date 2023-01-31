@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/693b0a288d.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <style>
         body {
             background-image: url('background.jpg');
@@ -66,6 +67,44 @@
         /* Style properties of testimonials section starts */
         /* Style properties of testimonials section ends */
         /* Style properties of join us on section starts */
+
+        #joinUsList {
+            display: inline-flex;
+            flex-wrap: wrap;
+            padding-block: 42px;
+            list-style: none;
+        }
+
+        .icons {
+            padding: 35px;
+        }
+
+        #heading {
+            font-size: 72px;
+            color: #fff;
+            text-align: center;
+            font-family: monospace;
+            text-shadow:
+                0 0 5px #fff,
+                0 0 10px rgb(247, 28, 214),
+                0 0 20px #fff,
+                0 0 40px #8A2BE2,
+                0 0 80px #8A2BE2,
+                0 0 90px #fff,
+                0 0 100px #8A2BE2,
+                0 0 150px #fff;
+        }
+
+        .img-container:hover,
+        .img-container:active {
+            filter: brightness(180%);
+            box-shadow: 0 0 20px #8A2BE2, inset 0 0 25px rgb(247, 28, 214);
+            transform: scale(1.5);
+        }
+
+        .img-container {
+            border-radius: 12px;
+        }
         /* Style properties of join us on section ends */
         /* Style properties of footer section starts */
         .footer-container {
@@ -274,7 +313,52 @@
 
     <!-- HTML code of testimonials section ends -->
     <!-- HTML code of join us on section starts -->
-
+    <div id="heading">
+        JOIN US ON
+    </div>
+    <div class="d-flex justify-content-center">
+        <ul id="joinUsList">
+            <li class="icons">
+                <div class="img-container"><a href="https://www.facebook.com/theEduMoon1">
+                        <iconify-icon icon="uil:facebook-f" style="color:whitesmoke;" width="75"></iconify-icon></a>
+                </div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="https://instagram.com/theedumoon?igshid=YmMyMTA2M2Y=">
+                        <iconify-icon icon="radix-icons:instagram-logo" style="color: whitesmoke;"
+                            width="75"></iconify-icon></a></div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="https://twitter.com/theedumoon">
+                        <iconify-icon icon="uiw:twitter" style="color: whitesmoke;" width="75"></iconify-icon></a></div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="https://youtube.com/@EduMoon">
+                        <iconify-icon icon="akar-icons:youtube-fill" style="color:whitesmoke;"
+                            width="75"></iconify-icon></a></div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="https://www.telegram.com/">
+                        <iconify-icon icon="fa-brands:telegram-plane" style="color:whitesmoke;"
+                            width="75"></iconify-icon></a></div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="https://www.whatsapp.com/">
+                        <iconify-icon icon="bi:whatsapp" style="color: whitesmoke;" width="75"></iconify-icon></a></div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="https://www.linkedin.com/company/edumoon/">
+                        <iconify-icon icon="typcn:social-linkedin" style="color: whitesmoke;"
+                            width="75"></iconify-icon></a></div>
+            </li>
+            <li class="icons">
+                <div class="img-container"><a href="http://discord.gg/aj5sHJFf">
+                        <iconify-icon icon="akar-icons:discord-fill" style="color: whitesmoke;"
+                            width="75"></iconify-icon></a>
+                </div>
+            </li>
+        </ul>
+    </div>
     <!-- HTML code of join us on section ends -->
     <!-- HTML code of footer section starts -->
     <hr size="6" noshade="0" style="margin-left: -10px; margin-right: -10px; width: 100%;">
